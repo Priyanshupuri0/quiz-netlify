@@ -20,7 +20,7 @@ export default function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Check">Score</Link>
+                                <Link className="nav-link" to="/Check.js">Score</Link>
                             </li>
                             <li className="nav-item">
                                 <span className='nav-link' style={{cursor: "pointer"}} onClick={refreshSession}><i className="fa-solid fa-arrows-rotate"></i></span>
